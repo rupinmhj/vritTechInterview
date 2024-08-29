@@ -1,0 +1,30 @@
+.container {
+    position: relative;
+  }
+  .front{
+    position: absolute;
+    background-color:whitesmoke;
+    width: 212px;
+    margin-top:3px;
+    border: 1px solid rgb(55, 48, 48);
+    border-radius: 5px;
+  }
+  .input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  input[type="text"] {
+    padding-left: 30px; 
+    width: 100%;
+    box-sizing: border-box; 
+  }
+  
+  .search-icon {
+    position: absolute;
+    left: 10px; 
+    color: gray;
+    pointer-events: none; 
+  }
+  
